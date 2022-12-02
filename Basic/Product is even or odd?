@@ -1,3 +1,5 @@
+You are given two long numbers N1 and N2 in a string. You need to find out if the product of these numbers generate an even number or an odd number, If it is an even number print 1 else print 0.
+
 int EvenOdd(string n1 , string n2)
 {
     int h = n1.size();
