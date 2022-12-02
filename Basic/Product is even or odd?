@@ -1,0 +1,12 @@
+int EvenOdd(string n1 , string n2)
+{
+    int h = n1.size();
+    int k = n2.size();
+    int a = n1[h-1];
+    int b = n2[k-1];
+    if(a%2!=0 && b%2!=0 ){
+        return 0;
+    }else{
+        return 1;
+    }
+}
