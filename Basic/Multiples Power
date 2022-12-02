@@ -1,0 +1,17 @@
+Calculate the sum of all the multiples of 3 or 7 below the natural number N.
+
+
+class Solution
+{
+	public:
+		long long int sum(int N)
+		{
+		    long long int i,k=0;
+		    for(int i=1;i<N;i++){
+		        if(i%3==0 or i%7==0){
+		            k=k+i;
+		        }
+		    }
+		    return k;  
+		}	
+};
